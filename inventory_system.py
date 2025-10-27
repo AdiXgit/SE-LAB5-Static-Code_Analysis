@@ -112,9 +112,9 @@ def main():
     print_data()
 
     # FIX 1: Removed dangerous eval(), replaced with safe ast.literal_eval
-    # eval("print('eval used')")  # ❌ Removed insecure code
+    # eval("print('eval used')")  #Removed insecure code
     safe_code = "{'message': 'eval removed successfully'}"
-    result = ast.literal_eval(safe_code)  # ✅ Safe evaluation
+    result = ast.literal_eval(safe_code)  #Safe evaluation
     print(result["message"])
 
 

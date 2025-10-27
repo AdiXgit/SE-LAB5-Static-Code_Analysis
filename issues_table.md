@@ -10,5 +10,5 @@
 | 4 | **Pylint** | **Best Practice (Medium)** | 26, 32 | File handling done without a context manager — file may stay open if an error occurs. | Used `with open(filename, "r", encoding="utf-8") as f:` for safe automatic closure. |
 
 
-**Author:** *Aditya*  
+**Author:** *Aditya_D_RAO PES2UG23CS031*  
 **Lab:** *Static Code Analysis – SE Lab 5*
